@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 145.0133 144.37721"
+   height="14.437723cm"
+   width="14.501329cm">
+  <defs
+     id="defs2">
+    <filter
+       id="filter4817"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood4807"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.580392" />
+      <feComposite
+         id="feComposite4809"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur4811"
+         result="blur"
+         stdDeviation="1"
+         in="composite1" />
+      <feOffset
+         id="feOffset4813"
+         result="offset"
+         dy="1"
+         dx="1" />
+      <feComposite
+         id="feComposite4815"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter4829"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood4819"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.580392" />
+      <feComposite
+         id="feComposite4821"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur4823"
+         result="blur"
+         stdDeviation="1"
+         in="composite1" />
+      <feOffset
+         id="feOffset4825"
+         result="offset"
+         dy="1"
+         dx="1" />
+      <feComposite
+         id="feComposite4827"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter4841"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood4831"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.580392" />
+      <feComposite
+         id="feComposite4833"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur4835"
+         result="blur"
+         stdDeviation="1"
+         in="composite1" />
+      <feOffset
+         id="feOffset4837"
+         result="offset"
+         dy="1"
+         dx="1" />
+      <feComposite
+         id="feComposite4839"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter4853"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood4843"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.580392" />
+      <feComposite
+         id="feComposite4845"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur4847"
+         result="blur"
+         stdDeviation="1"
+         in="composite1" />
+      <feOffset
+         id="feOffset4849"
+         result="offset"
+         dy="1"
+         dx="1" />
+      <feComposite
+         id="feComposite4851"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     transform="translate(22.669262,-22.755386)"
+     id="layer1">
+    <path
+       transform="matrix(0.44296337,0.71394975,-0.7530046,0.46719457,130.74819,36.04846)"
+       d="M 46.088495,137.37368 5.6808291,156.43705 -31.032369,130.97467 -27.3379,86.448921 13.069766,67.385549 49.782964,92.847928 Z"
+       id="path4662-9-1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#88aa00;stroke-width:16.80342293;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82509508;filter:url(#filter4853)" />
+    <path
+       transform="matrix(0.58272699,0.60528509,-0.63839571,0.61460361,115.67722,20.488184)"
+       d="M 46.088495,137.37368 5.6808291,156.43705 -31.032369,130.97467 -27.3379,86.448921 13.069766,67.385549 49.782964,92.847928 Z"
+       id="path4662-9"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#445016;stroke-width:16.80342293;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4841)" />
+    <g
+       id="text3701"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.98036957px;line-height:1.25;font-family:Teko;-inkscape-font-specification:Teko;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.17450917;stroke-opacity:1;filter:url(#filter4829)"
+       aria-label="Ty
+">
+      <path
+         id="path5188"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#668000;stroke:#ffffff;stroke-width:1.17450917;stroke-opacity:1"
+         d="M 31.958896,59.076586 H 17.864785 v 3.429567 h 4.932938 v 25.980145 h 4.228234 V 62.506153 h 4.932939 z" />
+      <path
+         id="path5190"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#668000;stroke:#ffffff;stroke-width:1.17450917;stroke-opacity:1"
+         d="m 32.595333,65.559877 4.791998,22.550578 h 2.302038 l -0.469804,1.926195 c -0.328862,1.26847 -1.174509,1.550352 -2.442979,1.550352 h -1.926195 v 3.382587 h 2.818822 c 3.100704,0 4.745017,-1.503372 5.402742,-4.275214 L 47.910933,65.559877 H 43.63572 L 40.394074,84.774848 36.917527,65.559877 Z" />
+    </g>
+    <g
+       id="text3707"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.9858551px;line-height:1.25;font-family:Teko;-inkscape-font-specification:Teko;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.27464652;stroke-opacity:1;filter:url(#filter4817)"
+       aria-label="Pe">
+      <path
+         id="path5183"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#668000;stroke:#ffffff;stroke-width:1.27464652;stroke-opacity:1"
+         d="m 55.825548,102.357 c 0,1.22366 -0.305915,1.52957 -1.529576,1.52957 H 49.809217 V 91.700956 h 4.486755 c 1.223661,0 1.529576,0.254929 1.529576,1.478589 z M 45.22049,87.978988 v 31.917142 h 4.588727 v -12.33857 h 5.863373 c 3.314081,0 4.741685,-1.52958 4.741685,-4.48676 V 92.465743 c 0,-2.906193 -1.427604,-4.486755 -4.741685,-4.486755 z" />
+      <path
+         id="path5185"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#668000;stroke:#ffffff;stroke-width:1.27464652;stroke-opacity:1"
+         d="m 68.516246,105.51812 v -5.4045 c 0,-1.172673 0.305915,-1.478588 1.529575,-1.478588 h 2.498307 c 1.223661,0 1.47859,0.305915 1.47859,1.478588 v 5.4045 z m 0.254929,-10.503084 c -3.263095,0 -4.741685,1.580562 -4.741685,4.537741 v 15.856603 c 0,2.90619 1.47859,4.48675 4.741685,4.48675 h 4.894642 c 3.263095,0 4.741684,-1.58056 4.741684,-4.48675 v -2.70225 h -4.486755 v 2.03943 c 0,1.22366 -0.305915,1.52958 -1.529575,1.52958 h -2.34535 c -1.22366,0 -1.529575,-0.30592 -1.529575,-1.47859 v -5.91436 h 10.044213 v -9.330413 c 0,-2.957179 -1.47859,-4.537741 -4.79267,-4.537741 z" />
+    </g>
+  </g>
+</svg>
