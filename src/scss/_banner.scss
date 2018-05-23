@@ -1,0 +1,35 @@
+.App-header {
+  background-color: $primary;
+  max-height: 60vh;
+  padding: .25rem 1rem;
+  padding-bottom: 0;
+  .App-logo {
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+    max-height: 50vh;
+    min-height: 200px;
+    width: 80%;
+  }
+}
+
+.full {
+  border-right: 1rem solid $yellow;
+  &:last-child {
+    border-right: 0;
+  }
+}
+
+.navItem {
+  a {
+    background-color: lighten($body-bg, 10%);
+    display: block;
+    padding: .5rem 2rem;
+    color: $link;
+    &:hover,
+    &:active {
+      background-color: $body-bg;
+      color: $orange;
+    }
+  }
+}

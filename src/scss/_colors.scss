@@ -1,14 +1,13 @@
-$orange:#d34300;
-$blue:  #0e8bc5;
+$orange:#df6d39;
+$blue: #0e8bc5;
 $yellow:#D4AA00;
 $green: #668000;
 $purple:#666699;
-
+$dark: #343a40;
 $primary: $yellow;
 $secondary: $green;
-$muted:$purple;
-$accent: $orange;
-$link:$blue;
-
-$body-bg: $yellow;
-$body-color:#121;
+$muted: $purple;
+$accent: lighten($orange, 10%);
+$link: lighten($green, 25%);
+$body-bg: $dark;
+$body-color: lighten($purple, 35%);

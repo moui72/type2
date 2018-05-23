@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="417.33377"
-   height="402.23096"
-   viewBox="0 0 117.78086 113.5185"
+   width="360"
+   height="360"
+   viewBox="0 0 101.59999 101.59998"
    version="1.1"
    id="svg8"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="type-logo.small.svg">
+   sodipodi:docname="type-logo.ico.svg"
+   inkscape:export-filename="/Users/tyler/dev/type2/src/assets/src/type-logo-sq.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs2">
     <filter
@@ -186,17 +189,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="183.12781"
-     inkscape:cy="202.52226"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="255.97737"
+     inkscape:cy="178.19042"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     fit-margin-top="-10"
-     fit-margin-left="-10"
-     fit-margin-bottom="-10"
-     fit-margin-right="-10"
+     fit-margin-top="-30"
+     fit-margin-left="-30"
+     fit-margin-bottom="-30"
+     fit-margin-right="-30"
      inkscape:window-width="1440"
      inkscape:window-height="856"
      inkscape:window-x="0"
@@ -220,7 +223,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(8.2590565,-38.267059)">
+     transform="translate(5.4368331,-44.541137)">
     <path
        sodipodi:type="star"
        style="fill:none;fill-opacity:1;stroke:#88aa00;stroke-width:16.80342293;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82509508;filter:url(#filter4853)"
@@ -236,37 +239,6 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="M 46.088495,137.37368 5.6808291,156.43705 -31.032369,130.97467 -27.3379,86.448921 13.069766,67.385549 49.782964,92.847928 Z"
-       transform="matrix(0.44296337,0.71394975,-0.7530046,0.46719457,130.74819,36.04846)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.98036957px;line-height:1.25;font-family:Teko;-inkscape-font-specification:Teko;letter-spacing:0px;word-spacing:0px;fill:#343a40;fill-opacity:1;stroke:none;stroke-width:1.17450917;stroke-opacity:1;filter:url(#filter4829)"
-       x="17.629883"
-       y="88.486298"
-       id="text3701"><tspan
-         sodipodi:role="line"
-         id="tspan3699"
-         x="17.629883"
-         y="88.486298"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#343a40;fill-opacity:1;stroke:none;stroke-width:1.17450917;stroke-opacity:1"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#343a40;fill-opacity:1;stroke:none;stroke-width:1.17450917;stroke-opacity:1"
-           id="tspan3717">Ty</tspan></tspan><tspan
-         sodipodi:role="line"
-         x="17.629883"
-         y="147.21176"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#343a40;fill-opacity:1;stroke:none;stroke-width:1.17450917;stroke-opacity:1"
-         id="tspan3703" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.9858551px;line-height:1.25;font-family:Teko;-inkscape-font-specification:Teko;letter-spacing:0px;word-spacing:0px;fill:#f4ffc8;fill-opacity:1;stroke:none;stroke-width:1.27464652;stroke-opacity:1;filter:url(#filter4817)"
-       x="42.569225"
-       y="119.89613"
-       id="text3707"><tspan
-         sodipodi:role="line"
-         id="tspan3705"
-         x="42.569225"
-         y="119.89613"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#f4ffc8;fill-opacity:1;stroke:none;stroke-width:1.27464652;stroke-opacity:1"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;fill:#f4ffc8;fill-opacity:1;stroke:none;stroke-width:1.27464652;stroke-opacity:1"
-           id="tspan3719">Pe</tspan></tspan></text>
+       transform="matrix(0.44296337,0.71394975,-0.7530046,0.46719457,126.23265,36.04846)" />
   </g>
 </svg>

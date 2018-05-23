@@ -1,18 +1,26 @@
-import React, { Component } from 'react';
-import logo from './assets/type-logo.plain.svg';
-import './scss/global.scss'
+import React, {Component} from "react";
+import Banner from './banner.js'
 
 class App extends Component {
   render() {
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} width="800px" className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="wrap">
+          <Banner full={true}></Banner>
+
+          <main className="page">
+            <h1 className="App-title">Welcome to React</h1>
+            <p className="App-intro">
+              To get started, edit
+              <code>src/App.js</code>
+              and save to reload.
+            </p>
+          </main>
+        </div>
+        <footer>
+          <p>&copy; 2018 Tyler Peckenpaugh</p>
+        </footer>
       </div>
     );
   }

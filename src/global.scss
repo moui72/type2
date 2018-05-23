@@ -1,0 +1,42 @@
+@import "./scss/_includes.scss";
+@import "./scss/_banner.scss";
+html,
+body,
+header {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 95vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $accent;
+}
+
+.wrap {
+  min-height: 90vh;
+}
+
+.page {
+  width: 95vw;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+code {
+  color: lighten($purple, 25%);
+  margin: 0 0.5rem;
+}
+
+footer {
+  color: lighten($purple, 25%);
+  text-align: center;
+  font-size: small;
+}
