@@ -13,23 +13,27 @@
   }
 }
 
-.full {
-  border-right: 1rem solid $yellow;
-  &:last-child {
+.main-nav {
+  list-style: none;
+  .navItem {
+    border-right: 1rem solid $yellow;
     border-right: 0;
+    a {
+      display: block;
+      padding: .5rem 2rem;
+      color: darken($link, 30%);
+      font-size: 1.25rem;
+      &:hover,
+      &:active {
+        background-color: $body-bg;
+        color: $orange;
+      }
+    }
   }
 }
 
-.navItem {
-  a {
-    background-color: lighten($body-bg, 10%);
-    display: block;
-    padding: .5rem 2rem;
-    color: $link;
-    &:hover,
-    &:active {
-      background-color: $body-bg;
-      color: $orange;
-    }
-  }
+.tog {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }

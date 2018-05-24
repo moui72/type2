@@ -1,37 +1,67 @@
 import React, {Component} from "react";
+import {Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
 import Content from "./data.js"
 
 class MenuItem extends Component {
   render() {
-    let classes = this.props.full
-      ? 'navItem full'
-      : 'navItem sm';
-
-    console.log(this.props)
-    return (
-      <li className={classes}>
-        <a href={this.props.address}>{this.props.text}</a>
-      </li>
-    )
+    return this.props.full
+      ? (
+        <li className='navItem full'>
+          <a href={this.props.address}>{this.props.text}</a>
+        </li>
+      )
+      : (
+        <DropdownItem href={this.props.address}>
+          {this.props.text}
+        </DropdownItem>
+      )
   }
 }
 export default class Menu extends Component {
 
+  constructor(props) {
+    super(props)
+    this.toggle = this
+      .toggle
+      .bind(this);
+    this.state = {
+      dropdownOpen: false
+    }
+  }
+
+  toggle() {
+    this.setState(prevState => ({
+      dropdownOpen: !prevState.dropdownOpen
+    }));
+  }
+
   render() {
-    let items = Object
+    const Items = Object
       .keys(Content)
       .map(item => {
-        return <MenuItem
-          className="col"
-          full={this.props.full}
-          key={item}
-          text={item}
-          address={'/' + item}></MenuItem>
-      })
-
+        return <MenuItem full={this.props.full} key={item} text={item} address={'/' + item}></MenuItem>
+      });
+    const MobileItems = Object
+      .keys(Content)
+      .map(item => {
+        return <MenuItem full={false} key={'m-' + item} text={item} address={'/' + item}></MenuItem>
+      });
     return (
       <div className="container">
-        <ul className="nav main-nav row justify-content-center">{items}</ul>
+        <div className="d-none d-md-block">
+          <ul className="main-nav row justify-content-center">{Items}</ul>
+        </div>
+        <Dropdown
+          isOpen={this.state.dropdownOpen}
+          toggle={this.toggle}
+          className="d-md-none tog">
+          <DropdownToggle>
+            =
+          </DropdownToggle>
+          <DropdownMenu right>
+            {MobileItems}
+          </DropdownMenu>
+        </Dropdown>
       </div>
     )
   }

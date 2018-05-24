@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Menu from "./menu"
+import Menu from "./menu.js";
 import logo from "./assets/type-logo.plain.nosubtext.svg";
 import smallLogo from "./assets/type-logo.small.plain.svg";
 
@@ -22,7 +22,6 @@ export default class Banner extends Component {
           <Menu full={this.props.full}></Menu>
         </header>
       </div>
-
     )
   }
 }
