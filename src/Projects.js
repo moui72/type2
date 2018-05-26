@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import Page from "./page.js"
-export default class Home extends Component {
+import Page from "./_Page.js"
+export default class Projects extends Component {
   render() {
     return (
       <Page title="Welcome">

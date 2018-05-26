@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
-import Content from "./data.js"
+import Content from "./_data.js"
 import GoThreeBars from "react-icons/lib/go/three-bars";
 
 class MenuItem extends Component {

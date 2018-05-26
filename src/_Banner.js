@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Menu from "./menu.js";
+import Menu from "./_Menu.js";
 import logo from "./assets/type-logo.plain.nosubtext.svg";
 import smallLogo from "./assets/type-logo.small.plain.svg";
 
