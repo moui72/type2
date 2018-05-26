@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
 import Content from "./data.js"
+import GoThreeBars from "react-icons/lib/go/three-bars";
 
 class MenuItem extends Component {
   render() {
@@ -11,14 +12,12 @@ class MenuItem extends Component {
         </li>
       )
       : (
-        <DropdownItem href={this.props.address}>
-          {this.props.text}
-        </DropdownItem>
+        <DropdownItem href={this.props.address}></DropdownItem>
       )
   }
+
 }
 export default class Menu extends Component {
-
   constructor(props) {
     super(props)
     this.toggle = this
@@ -56,7 +55,7 @@ export default class Menu extends Component {
           toggle={this.toggle}
           className="d-md-none tog">
           <DropdownToggle>
-            =
+            <GoThreeBars/>
           </DropdownToggle>
           <DropdownMenu right>
             {MobileItems}
@@ -65,4 +64,5 @@ export default class Menu extends Component {
       </div>
     )
   }
+
 }
