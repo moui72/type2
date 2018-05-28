@@ -13,27 +13,22 @@
   }
 }
 
+.main-menu {}
+
 .main-nav {
+  margin-top: 1rem;
+  text-align: center;
   list-style: none;
   .navItem {
-    border-right: 1rem solid $yellow;
-    border-right: 0;
+    text-align: center;
     a {
       display: block;
-      padding: .5rem 2rem;
-      color: darken($link, 30%);
+      color: $primary;
       font-size: 1.25rem;
       &:hover,
       &:active {
-        background-color: $body-bg;
         color: $orange;
       }
     }
   }
-}
-
-.tog {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
 }
