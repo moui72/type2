@@ -3,7 +3,7 @@ import {GoX} from "react-icons/lib/go";
 import {Link} from 'react-router-dom'
 import MobileMenu from "./_MobileMenu.js";
 import smallLogo from "./assets/type-logo.small.plain.svg";
-
+import {TransitionGroup, CSSTransition} from "react-transition-group"
 export default class Page extends Component {
   render() {
 

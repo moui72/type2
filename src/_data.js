@@ -1,6 +1,7 @@
 export default {
   home : {
-    items: []
+    intro: "Welcome! This site is currently a work in progress. Check back soon to see how i" +
+        "t develops."
   },
   designs : {
     intro: "Selected designs. These are mock-ups or demos, not live sites.",

@@ -1,12 +1,14 @@
 import React, {Component} from "react";
 import Banner from './_Banner.js'
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, withRouter} from 'react-router-dom'
 import Page from "./Page";
 import data from "./_data";
 import {GoEye, GoMarkGithub} from "react-icons/lib/go"
+import {TransitionGroup, CSSTransition} from "react-transition-group"
+
 class App extends Component {
   render() {
-
+    const {match, location, history} = this.props
     const routes = Object
       .keys(data)
       .map(section => {
@@ -55,8 +57,8 @@ class App extends Component {
                   <div className="card shadow">
                     {image}
                     <div className="card-body subsection-body">
-                      <h3 class="card-title">{title}</h3>
-                      <p class="card-text">{text}</p>
+                      <h3 className="card-title">{title}</h3>
+                      <p className="card-text">{text}</p>
                       {link}
                       {repo}
                     </div>
@@ -70,18 +72,34 @@ class App extends Component {
             key={section}
             path={"/" + section}
             render=
-            {() => (<Page title={section.charAt(0).toUpperCase() + section.slice(1)}> {intro} <div class="row">{subsections} </div> </Page> ) }></Route>
+            {() => (<Page title={section.charAt(0).toUpperCase() + section.slice(1)}> {intro} <div className="row">{subsections} </div> </Page> ) }></Route>
+
         )
       })
-
     return (
+
       <div className="App">
         <div className="wrap">
           <Banner full={true}></Banner>
           <main>
-            <Switch>
-              {routes}
-            </Switch>
+            <TransitionGroup className="routes">
+              <CSSTransition
+                key={location.key}
+                classNames={{
+                appear: "animated",
+                appearActive: 'bounce',
+                exitActive: 'fadeOut',
+                enterActive: 'zoomIn',
+                enter: "animated",
+                exit: "animated"
+              }}
+                timeout={500}>
+                <Switch location={location}>
+                  {routes}
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+
           </main>
         </div>
         <footer>
@@ -92,4 +110,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
