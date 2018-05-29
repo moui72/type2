@@ -4,16 +4,16 @@ import {NavLink} from 'react-router-dom';
 
 export default class MenuItem extends Component {
   render() {
-    const Css = this.props.full
-      ? "navItem full col-12 col-md"
-      : "dropdown-item"
-    let Icon = <GoPerson color="white"></GoPerson>
+    let Icon = '';
     const IconProps = {
-      color: "black",
       size: ".9rem",
       style: {
-        marginRight: '.5rem'
-      }
+        marginRight: '.5rem',
+        marginLeft: this.props.full
+          ? '-1.4rem'
+          : '0'
+      },
+      className: 'menu-icon'
     };
     switch (this.props.text.toLowerCase()) {
       case "home":
@@ -26,20 +26,19 @@ export default class MenuItem extends Component {
         Icon = <GoCode {...IconProps}></GoCode>;
         break;
       default:
-        Icon = '';
+        Icon = <GoPerson {...IconProps}></GoPerson>;
     }
     return this.props.full
       ? (
-        <li className={Css}>
-
-          <NavLink to={this.props.address}>
+        <li className="navItem full col-12 col-md">
+          <NavLink to={this.props.address} className="rounded">
             {Icon}
             {this.props.text}
           </NavLink>
         </li>
       )
       : (
-        <NavLink to={this.props.address} className={Css}>
+        <NavLink to={this.props.address} className="dropdown-item">
           {Icon}
           {this.props.text}
         </NavLink>

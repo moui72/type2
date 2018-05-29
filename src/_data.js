@@ -38,24 +38,32 @@ export default {
         ],
         git: "https://github.com/moui72/XDM"
       }, {
-        title: "StimuliDB",
-        description: "Database for managing experimental stimuli. Work in progress.",
+        title: "RankGames",
+        description: "This app is intended to help you build ranked lists of games from those in your " +
+            "collection on Board Game Geek.",
+        url: "http://rankgames.ty-pe.com/",
         techs: [
-          "AngularJS", "Express", "AJAX", "SQLite"
+          "Angular 2", "Ionic", "TypeScript"
         ],
-        git: "https://github.com/moui72/stimuliDB"
+        git: "https://github.com/moui72/ionRankGames"
       }, {
-        title: "lootBag",
-        description: "Interface for managing loot found during Pathfinder RPG adventures. Work in prog" +
-            "ress.",
+        title: "RankGames2",
+        description: "This app is intended to help you build ranked lists of games from those in your " +
+            "collection on Board Game Geek.Total rewrite of my previous RankGames app.Perform" +
+            "ance should be much improved, and I think the animations really help usability.",
+        url: "http://gotu-game.com/rankgames2",
         techs: [
-          "MySQL", "loopBack/StrongLoop", "AngularJS"
+          "Vue.js", "Vuex", "Animate.css"
         ],
-        git: "https://github.com/moui72/lootBag"
+        git: "https://github.com/moui72/rankgames2"
       }
     ]
-  },
-  resume : {
+  }
+};
+
+let re = {
+  resume: {
+    display: "r&eacute;sum&eacute;",
     intro: "",
     basics: {
       name: "Tyler J. Peckenpaugh",
@@ -156,8 +164,5 @@ export default {
         items: ["Theoretical linguistics", "Accessibility for the Internet", "Information structure", "User interface design"]
       }
     ]
-  },
-  contact : {
-    intro: "Feel free to contact me with any questions."
   }
-};
+}

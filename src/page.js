@@ -8,6 +8,9 @@ export default class Page extends Component {
   render() {
 
     console.log(this.props)
+    const title = typeof this.props.display === "string"
+      ? this.props.display
+      : this.props.title;
     return (
       <div className="page rounded shadow-lg">
         <div className="pageMenu rounded-top ">
@@ -15,7 +18,7 @@ export default class Page extends Component {
             <div className="col">
               <MobileMenu></MobileMenu>
             </div>
-            <div class="col text-center log">
+            <div className="col text-center log">
               <img src={smallLogo} alt="TyPe Logo" className="small-logo"/>
             </div>
             <div className="col text-right">
@@ -28,7 +31,7 @@ export default class Page extends Component {
           </div>
         </div>
         <div className="pageContent">
-          <h1>{this.props.title}</h1>
+          <h1>{title}</h1>
           {this.props.children}
         </div>
       </div>
