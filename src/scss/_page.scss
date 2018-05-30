@@ -1,13 +1,12 @@
 .page {
   position: absolute;
-  top: .5rem;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 1vh;
   background-color: white;
-  margin: 1rem 0;
+  margin: 1rem 5vw;
   color: black;
-  min-width: 60vw;
+  width: 90vw;
   min-height: 80vh;
+  min-width: 300px;
 }
 
 .pageMenu {
