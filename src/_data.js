@@ -1,17 +1,79 @@
 import React from "react";
+import AOCSS from "./assets/aoc.png"
+import PPHSS from "./assets/pph.us.png"
+import UPDSS from "./assets/underpowered.png"
+import XDMSS from "./assets/XDM.png"
+import RG1SS from "./assets/rg.png"
+import RG2SS from "./assets/rg2.png"
+import VUEICO from "./assets/vue.svg"
+import ANGICO from "./assets/angular.svg"
+import IONICO from "./assets/ionic.svg"
+import PHPICO from "./assets/php-logo.svg"
+import CSSICO from "./assets/css.svg"
+import TypeLogo from "./assets/type-logo.small.plain.svg"
+const Animate = {
+  name: "Animate.css",
+  url: "https://daneden.github.io/animate.css/",
+  icon: CSSICO
+}
+const Vue = {
+  name: "Vue.js",
+  url: "https://vuejs.org/",
+  icon: VUEICO
+}
+const Vuex = {
+  name: "Vuex",
+  url: "https://vuex.vuejs.org/",
+  icon: VUEICO
+}
+const Angular2 = {
+  name: "Angular2",
+  url: "https://v2.angular.io/docs/ts/latest/",
+  icon: ANGICO
+}
+const AngularJS = {
+  name: "AngularJS",
+  url: "https://ionicframework.com/docs/2.3.0/api/",
+  icon: ANGICO
+}
+const Ionic = {
+  name: "Ionic",
+  url: "https://ionicframework.com/docs/2.3.0/api/",
+  icon: IONICO
+}
+const PHP = {
+  name: "PHP",
+  url: "https://php.net",
+  icon: PHPICO
+}
+
 export default {
   home : {
     intro: (
-      <div>
+      <div >
         <p>
-          Welcome! This site is currently a work in progress. Check back soon to see how
-          it develops.
+          Welcome to Tyler Peckenpaugh's website! This site is currently a work in
+          progress. Check back soon to see how it develops.
         </p>
         <p>
-          You can see my other site at{" "}
+          I am nearing completion of my PhD in theoretical linguistics from {" "}
+          <a href="http://gc.cuny.edy">The Graduate Center, CUNY</a>. I am also an avid
+          JavaScript programmer. This site is intended to show off my technical and design
+          skills. If you are more interested in my academic work, you can find that over
+          at my my other site: {" "}
           <a href="http://peckenpaugh.us">peckenpaugh.us</a>.
         </p>
+        <img
+          src={TypeLogo}
+          alt="Site logo."
+          className="d-block mx-auto mt-5"
+          style={{
+          height: "15rem",
+          maxHeight: "40vh"
+        }}/>
+
       </div>
+
     )
   },
   designs : {
@@ -23,19 +85,19 @@ export default {
         description: "Web presence for an online gaming community.",
         url: "http://peckenpaugh.us/demos/",
         status: "Defunct; community moved to facebook.",
-        ss: "underpowered.png"
+        ss: UPDSS
       }, {
         title: "Age of Conan",
         description: "Fan site for an online game.",
         url: "http://peckenpaugh.us/demos/aoc/aoc.htm",
         status: "Defunct; client no longer interested in game.",
-        ss: "aoc.png"
+        ss: AOCSS
       }, {
         title: "Peckenpaugh.us",
         description: "Personal portfolio site.",
         url: "http://peckenpaugh.us",
         status: "Live.",
-        ss: "peckenpaugh.png"
+        ss: PPHSS
       }
     ]
   },
@@ -44,37 +106,40 @@ export default {
     items: [
       {
         title: "XDM",
+        ss: XDMSS,
         description: "Team randomizer for Dice Masters tabletop game.",
         url: "http://gotu-game.com/XDM",
         techs: [
-          "AngularJS", "PHP"
+          AngularJS, PHP
         ],
         git: "https://github.com/moui72/XDM"
       }, {
+        title: "RankGames2",
+        ss: RG2SS,
+        description: "This app is intended to help build ranked lists of games from those in a collect" +
+            "ion on Board Game Geek. It is a total rewrite of my previous RankGames app, usin" +
+            "g Vue.js in place of Angular2+Ionic2.",
+        url: "http://gotu-game.com/rankgames2",
+        techs: [
+          Vue, Vuex, Animate
+        ],
+        git: "https://github.com/moui72/rankgames2"
+      }, {
         title: "RankGames",
+        ss: RG1SS,
         description: "This app is intended to help you build ranked lists of games from those in your " +
             "collection on Board Game Geek.",
         url: "http://rankgames.ty-pe.com/",
         techs: [
-          "Angular 2", "Ionic", "TypeScript"
+          Angular2, Ionic
         ],
         git: "https://github.com/moui72/ionRankGames"
-      }, {
-        title: "RankGames2",
-        description: "This app is intended to help you build ranked lists of games from those in your " +
-            "collection on Board Game Geek.Total rewrite of my previous RankGames app.Perform" +
-            "ance should be much improved, and I think the animations really help usability.",
-        url: "http://gotu-game.com/rankgames2",
-        techs: [
-          "Vue.js", "Vuex", "Animate.css"
-        ],
-        git: "https://github.com/moui72/rankgames2"
       }
     ]
   }
 };
-
-let re = {
+/*
+const resume = {
   resume: {
     display: "r&eacute;sum&eacute;",
     intro: "",
@@ -179,3 +244,4 @@ let re = {
     ]
   }
 };
+*/

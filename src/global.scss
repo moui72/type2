@@ -29,11 +29,21 @@ h5,
 h6 {
   font-family: $sans;
   color: $secondary;
+  font-size: 2rem;
 }
 
 h3 {
   font-family: $title;
   color: darken($accent, 30%);
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem
 }
 
 .wrap {

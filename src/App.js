@@ -20,11 +20,7 @@ class App extends Component {
               const image = subsection.ss
                 ? (<img
                   className="card-img-top"
-                  src={subsection
-                  .ss
-                  .indexOf("http") >= 0
-                  ? subsection.ss
-                  : "http://ty-pe.com/images/screenshots/" + subsection.ss}
+                  src={subsection.ss}
                   alt={"Screenshot of " + subsection.title + "."}/>)
                 : ("");
               const title = subsection.title
@@ -52,20 +48,37 @@ class App extends Component {
               text += subsection.status
                 ? subsection.status
                 : "";
-              const techs = subsection.techs
-                ? subsection
-                  .techs
-                  .map(tech => {
-                    return <li/>;
-                  })
-                : "";
+              const techs = <ul className="list-group list-group-flush">
+                {subsection.techs
+                  ? subsection
+                    .techs
+                    .map(tech => {
+                      return <li className="list-group-item">
+                        <img
+                          src={tech.icon}
+                          alt={tech.name + ' logo'}
+                          style={{
+                          height: tech.name === "PHP"
+                            ? '.8rem'
+                            : '1.5rem',
+                          marginRight: '1rem'
+                        }}/>
+                        <a href={tech.url}>{tech.name}</a>
+                      </li>;
+                    })
+                  : ""}
+              </ul>
               return (
                 <div key={section + "-" + title} className="py-2 col-12 col-md-6">
-                  <div className="card shadow">
+                  <div className="card shadow-sm">
                     {image}
                     <div className="card-body subsection-body">
                       <h3 className="card-title">{title}</h3>
                       <p className="card-text">{text}</p>
+                    </div>
+
+                    {techs}
+                    <div className="card-footer">
                       {link}
                       {repo}
                     </div>
