@@ -7,6 +7,7 @@ export default class Banner extends Component {
   render() {
 
     return (
+
       <div>
         <header className="App-header">
           <img src={logo} className="App-logo d-block" alt="banner"/>

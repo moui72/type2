@@ -10,7 +10,8 @@ import ANGICO from "./assets/angular.svg"
 import IONICO from "./assets/ionic.svg"
 import PHPICO from "./assets/php-logo.svg"
 import CSSICO from "./assets/css.svg"
-import TypeLogo from "./assets/type-logo.small.plain.svg"
+import TypeLogo from "./assets/type-logo.plain.nosubtext.svg"
+
 const Animate = {
   name: "Animate.css",
   url: "https://daneden.github.io/animate.css/",

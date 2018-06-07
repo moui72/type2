@@ -3,9 +3,9 @@ import {GoX} from "react-icons/lib/go";
 import {Link} from 'react-router-dom'
 import MobileMenu from "./_MobileMenu.js";
 import smallLogo from "./assets/type-logo.small.plain.svg";
+
 export default class Page extends Component {
   render() {
-
     console.log(this.props)
     const title = typeof this.props.display === "string"
       ? this.props.display
